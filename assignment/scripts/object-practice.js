@@ -1,4 +1,4 @@
-console.log('***** Object Practice *****')
+console.log("***** Object Practice *****");
 
 // Add the required code to complete the tasks below
 
@@ -10,14 +10,13 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  firstName: 'Jaylyn',
-  lastName: 'Etienne',
+  firstName: "Jaylyn",
+  lastName: "Etienne",
   hasSiblings: true,
   shoeCount: 20,
-  favThreeFoods: ['plantain', 'kineps', 'grio'],
-
+  favThreeFoods: ["plantain", "kineps", "grio"],
 };
-console.log('A little about me:', me);
+console.log("A little about me:", me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -42,7 +41,9 @@ console.log(`my second favorite food: ${me.favThreeFoods[1]}`);
 */
 console.log(me.shoeCount);
 me.shoeCount += 1;
-console.log(`got a new pair if shoes. the total number of shoes is now ${me.shoeCount}`);
+console.log(
+  `got a new pair if shoes. the total number of shoes is now ${me.shoeCount}`
+);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -50,6 +51,6 @@ console.log(`got a new pair if shoes. the total number of shoes is now ${me.shoe
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me.favoriteColor = 'green';
+me.favoriteColor = "green";
 
 console.log(me);
